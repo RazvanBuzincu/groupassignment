@@ -1,0 +1,145 @@
+:root {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #0000ff;
+}
+
+.graphic-side {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/Group\ 15.png"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.graphic-side::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200%; 
+    height: 100%;
+    background-color: #0000ff;
+    border-radius: 50%;
+    transform: translateX(50%);
+    z-index: -1; 
+    clip-path: url("../images/Ellipse\ -1.png"); 
+    clip-path: ellipse(75% 100% at 100% 100%);
+
+}
+
+.form-side {
+    flex-basis: 50%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 15px 140px 15px 90px;
+    border: 1px solid #8d8d8d; 
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#username {
+    background-image: url("../images/username.svg");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+}
+
+#email {
+    background-image: url("../images/email.svg");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+}
+
+#password {
+    background-image: url("../images/password.svg");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.submit-button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0000cc;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-text {
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.icon {
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.icon img {
+    width: 24px;
+    height: auto;
+}

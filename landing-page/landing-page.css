@@ -1,0 +1,184 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title >h1 {
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.title >p {
+    width: 665px;
+}
+
+
+.boxes {
+    width: 100%;
+}
+
+.icon-box {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    border-width: 2px;
+    max-width: 130px;
+    max-height: 140px;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+.dollar-box {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    min-width: 60px;
+    min-height: 60px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dollar-box >i {
+ font-size: 35px;
+}
+
+.box3 {
+    background-color: white;
+    min-width: 60px;
+    min-height: 60px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background: #3350f1;
+    
+}
+
+.blue >p {
+    color: white;
+}
+
+.box3 >i {
+    font-size: 35px;
+}
+
+
+.big-box >img {
+    width: 30%;
+}
+
+.big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    
+}
+
+.box-details {
+    background: #3350f1;
+    color: white;
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.box-details >h1 {
+    font-size: 20px;
+}
+
+.box-details > ul > li {
+    font-size: 12px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
+    
+}
+
+.button:hover {
+    color: #3350f1;
+    background: white;
+}
+
+.title2 >h1 {
+    font-weight: 650;
+    font-size: 20px;
+}
+
+/* 
+footer START */
+
+.footer {
+    background: #3350f1;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer >h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+.footer >h2 {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.get-started {
+    color: white;
+    background: #85d043;
+}
+
+.get-started:hover {
+    background: white;
+}
+
+.chat {
+    background: white;
+    color: #3350f1;
+}
+
+.chat:hover {
+    background: #85d043;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+}
